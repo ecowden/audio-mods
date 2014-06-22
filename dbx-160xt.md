@@ -16,7 +16,7 @@ Note: I'm using the _unbalanced_ output!
 | C3, C4, C5, C6 | 470uF 50V | 1000uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
 | C7, C8 | 22uF 50V | 220uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
 | C27, C31 | 22uF 25V | 220uF 50V Panasonic FR | Did I leave these as 22uF? I _think_ I know what they do, but I'm not 100% certain... |
-| Bypass C7, C8, C27, C31 | - | 0.1uF Film | Bypass capacitors added underneath the PCB.
+| Bypass C7, C8, C27, C31 | - | 0.1uF Film | Bypass capacitors added underneath the PCB. Yeah yeah, I know they're not Wimas, but they fit better and the longer leads make them easier to work with. |
 | Bypass C14, C18, C42, C43, C46, C50?, C51,...??? TODO  | - | 0.01uF Ceramic | Bypass capacitors added underneath the PCB. |
 
 
