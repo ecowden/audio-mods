@@ -5,7 +5,8 @@ Note: I'm using the _unbalanced_ output!
 | Part | Before  | After     | Notes |
 | ---- | ------- | --------- | ----- |
 | U1   | LF353   | LME49860  | |
-| U2   | LF353   | OPA134    | |
+| U2   | LF351   | OPA134    | |
+| U8   | LF353   | OPA2134    | According to [JW](http://www.gearslutz.com/board/geekslutz-forum/53182-dbx-160xt-mods-schematic.html): "The non-linear capacitor circuit also benefits from the use of a very low noise fet input opamp...The 353's are too noisy and add THD to the mix." I _think_ this is right, but I could be wrong. |
 | U11  | DBX1252 | THAT2180A | Also need to change surrounding circuitry |
 
 ### Bill of Materials
