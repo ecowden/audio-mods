@@ -15,9 +15,10 @@ Note: I'm using the _unbalanced_ output!
 
 | Qty | Part | Description | Mouser #  |
 | --- | ---- | ----------- | --------- |
-| 1   | THAT2180A | VCA | 887-2180AL08-U |
 | 1   | LME49860 | Dual Op Amp | 926-LME49860NA/NOPB |
-| 1   | OPA134   | Single FET-input Op Amp | 595-OPA134PA |
+| 1   | OPA134   | Single FET-input Op Amp | 595-OPA134PA  |
+| 1   | OPA2134  | Dual FET-input Op Amp   | 595-OPA2134PA |
+| 1   | THAT2180A | VCA | 887-2180AL08-U |
 
 ### Thoughts
 
