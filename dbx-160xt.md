@@ -13,6 +13,9 @@ Note: I'm using the _unbalanced_ output!
 | C16  | 1uF 63V Film | 2.2uF Solen "Fast Cap" | I had it lying around and it fit. Don't judge me. |
 | C??? | 1uF 50V Elec | 22uF 50V Panasonic FR | Replaced 21 capacitors. Basically, all the little blue ones except the meter board, since it would have been tricky to get to those. Some fit the larger 56uF, some didn't. |
 | C??? | 1uF 50V Elec | 56uF 50V Panasonic FR | See above. |
+| C3, C4, C5, C6 | 470uF 50V | 1000uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
+| C7, C8 | 22uF 50V | 220uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
+| C27, C31 | 22uF 25V | 220uF 50V Panasonic FR |  |
 
 
 
@@ -24,9 +27,10 @@ Note: I'm using the _unbalanced_ output!
 | 1   | OPA134   | Single FET-input Op Amp | 595-OPA134PA  |
 | 1   | OPA2134  | Dual FET-input Op Amp   | 595-OPA2134PA |
 | 1   | THAT2180A | VCA | 887-2180AL08-U |
+| 4   | EEU-FR1H221 | 220uf 50V Electrolytic Capacitor | 667-EEU-FR1H221 |
 | 21 ??? | EEU-FR1H220 | 22uf 50V Electrolytic Capacitor | 667-EEU-FR1H220 |
 | ??? | EEU-FR1H560 | 56uf 50V Electrolytic Capacitor | 667-EEU-FR1H560 |
-| 1 | SOLEN-51548 | 2.2uF Solen "Fast Cap" | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 5uF that you can fit in there. |
+| 1 | SOLEN-51548 | 2.2uF Solen "Fast Cap" | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
 
 ### Thoughts
 
