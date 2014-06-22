@@ -18,23 +18,25 @@ Note: I'm using the _unbalanced_ output!
 | C27, C31 | 22uF 25V | 220uF 50V Panasonic FR | Did I leave these as 22uF? I _think_ I know what they do, but I'm not 100% certain... |
 | Bypass C7, C8, C27, C31 | - | 0.1uF Film | Bypass capacitors added underneath the PCB. Yeah yeah, I know they're not Wimas, but they fit better and the longer leads make them easier to work with. |
 | Bypass C14, C18, C42, C43, C46, C50?, C51,...??? TODO  | - | 0.01uF Ceramic | Bypass capacitors added underneath the PCB. |
+| CR13, CR14, CR15, CR16   | Probably 1N400-Something | 100V 1A Schottky Diode | Not sure if it makes much difference, but I had them lying around... |
 
 
 
 ### Bill of Materials
 
-| Qty | Part | Description | Mouser #  |
-| --- | ---- | ----------- | --------- |
-| 1   | LME49860 | Dual Op Amp | 926-LME49860NA/NOPB |
-| 1   | OPA134   | Single FET-input Op Amp | 595-OPA134PA  |
-| 1   | OPA2134  | Dual FET-input Op Amp   | 595-OPA2134PA |
-| 1   | THAT2180A | VCA | 887-2180AL08-U |
-| 4   | EEU-FR1H221 | 220uf 50V Electrolytic Capacitor | 667-EEU-FR1H221 |
-| 4   | 0.1uF Panasonic ECWF | 0.1uF Polypropylene Capacitor | 667-ECW-F2104HAB |
-| ??? | 0.01uF TDK C0G | .01uF Ceramic Capacitor | 810-FK18C0G1H103J |
-| 21 ??? | EEU-FR1H220 | 22uf 50V Electrolytic Capacitor | 667-EEU-FR1H220 |
-| ??? | EEU-FR1H560 | 56uf 50V Electrolytic Capacitor | 667-EEU-FR1H560 |
-| 1 | SOLEN-51548 | 2.2uF Solen "Fast Cap" | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
+| Qty | Part  | Mouser #  |
+| --- | --------------- | --------- |
+| 1   | LME49860 Dual Op Amp | 926-LME49860NA/NOPB |
+| 1   | OPA134   Single FET-input Op Amp | 595-OPA134PA  |
+| 1   | OPA2134  Dual FET-input Op Amp   | 595-OPA2134PA |
+| 1   | THAT2180A VCA | 887-2180AL08-U |
+| 4   | 220uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H221 |
+| 4   | 0.1uF Panasonic ECWF Polypropylene Capacitor | 667-ECW-F2104HAB |
+| ??? | 0.01uF TDK C0G Ceramic Capacitor | 810-FK18C0G1H103J |
+| 21 ??? | 22uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H220 |
+| ??? | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
+| 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
+| 4 | 100V 1A Schottky Diode | 625-SB1H100-E3 |
 
 ### Thoughts
 
