@@ -13,11 +13,15 @@ Note: I'm using the _unbalanced_ output!
 | C16  | 1uF 63V Film | 2.2uF Solen "Fast Cap" | I had it lying around and it fit. Don't judge me. |
 | C??? | 1uF 50V Elec | 22uF 50V Panasonic FR | Replaced 21 capacitors. Basically, all the little blue ones except the meter board, since it would have been tricky to get to those. Some fit the larger 56uF, some didn't. |
 | C14, C18 | 1uF 50V Elec | 56uF 50V Panasonic FR | See above. |
+| C17 | 10uF 50V Elec | 10uF 50V Panasonic FC | Hanging off VCA pin 7 (Vcc). Could probably have upsized, but I don't understand enough to be certain. |
+| C25 | 10uF 50V Elec | 56uF 50V Panasonic FR | See above. |
+
+| Bypass C14, C18 | - | 0.01uF Ceramic | Bypass capacitors added underneath the PCB. |
+
 | C3, C4, C5, C6 | 470uF 50V | 1000uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
 | C7, C8 | 22uF 50V | 220uF 50V Panasonic FR | My unit had been modded. Original values may be wrong. |
 | C27, C31 | 22uF 25V | 220uF 50V Panasonic FR | Did I leave these as 22uF? I _think_ I know what they do, but I'm not 100% certain... |
 | Bypass C7, C8, C27, C31 | - | 0.1uF Film | Bypass capacitors added underneath the PCB. Yeah yeah, I know they're not Wimas, but they fit better and the longer leads make them easier to work with. |
-| Bypass C14, C18, C42, C43, C46, C50?, C51,...??? TODO  | - | 0.01uF Ceramic | Bypass capacitors added underneath the PCB. |
 | CR13, CR14, CR15, CR16   | Probably 1N400-Something | 100V 1A Schottky Diode | Not sure if it makes much difference, but I had them lying around... |
 | C | 10uF 25V | 10uF 25V Panasonic FC | Leave as 10uF since I believe this is part of the timing cirtcuit. Probably unnecessary, but I measured several and chose the closest to 10uF. |
 
