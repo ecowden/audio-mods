@@ -19,6 +19,7 @@ Note: I'm using the _unbalanced_ output!
 | Bypass C7, C8, C27, C31 | - | 0.1uF Film | Bypass capacitors added underneath the PCB. Yeah yeah, I know they're not Wimas, but they fit better and the longer leads make them easier to work with. |
 | Bypass C14, C18, C42, C43, C46, C50?, C51,...??? TODO  | - | 0.01uF Ceramic | Bypass capacitors added underneath the PCB. |
 | CR13, CR14, CR15, CR16   | Probably 1N400-Something | 100V 1A Schottky Diode | Not sure if it makes much difference, but I had them lying around... |
+| C | 10uF 25V | 10uF 25V Panasonic FC | Leave as 10uF since I believe this is part of the timing cirtcuit. Probably unnecessary, but I measured several and chose the closest to 10uF. |
 
 
 
