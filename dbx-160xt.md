@@ -38,6 +38,7 @@ Note: I'm using the _unbalanced_ output!
 | ??? | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
 | 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
 | 4 | 100V 1A Schottky Diode | 625-SB1H100-E3 |
+| 3 | DIP8 Socket | 115-43-308-41-003000 |
 
 ### Thoughts
 
