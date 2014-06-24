@@ -24,7 +24,7 @@ Note: I'm using the _unbalanced_ output!
 | C3, C4, C5, C6 | 470uF 50V Elec | 560uF 50V Panasonic FR. | PSU pre-regulator filter. I'd like to use 1000uF, but they don't quite fit. |
 | C7, C8 | 22uF 50V Elec | 220uF 50V Panasonic FR | PSU post-regulator filter. Bypassed with .1uF poly beneath PCB. |
 | C41 | 10uF 25V Elec | 10uF 50V Panasonic FC | Leave as 10uF since I believe this is part of the timing cirtcuit. Probably unnecessary, but I measured several and chose the closest to 10uF. |
-| CR13, CR14, CR15, CR16   | Probably 1N400-Something | 100V 1A Schottky Diode | Not sure if it makes much difference, but I had them lying around... |
+| CR13, CR14, CR15, CR16   | Probably 1N400-Something | 100V 1A Schottky Diode | Dubious difference, but I wanted to try it out. |
 | C62 | 1uF 50V Elec | 1uF 50V Wima MKS2 |  I _think_ this is a companion RMS circuit for the meter driver, so I used matching values. |
 | C63 | 10uF 50V Elec | 10uF 50V Panasonic FC |  See above. |
 | C64 | 10uF 25V Elec | 10uF 50V Panasonic FC | See above. |
