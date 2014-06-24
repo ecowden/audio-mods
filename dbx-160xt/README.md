@@ -8,7 +8,7 @@ Note: I'm using the _unbalanced_ output!
 | ---- | ------- | --------- | ----- |
 | U1   | LF353   | OPA2134   | Input op amp |
 | U2   | LF351   | OPA134    | Unbalanced output, driving transistor pair |
-| U8, U9 | LF353   | OPA2134   | Sidechain. According to [JW](http://www.gearslutz.com/board/geekslutz-forum/53182-dbx-160xt-mods-schematic.html): "The non-linear capacitor circuit also benefits from the use of a very low noise fet input opamp...The 353's are too noisy and add THD to the mix." I _think_ this is right, but I could be wrong. |
+| U8, U9 | LF353   | OPA2134   | Sidechain. According to [Jim Williams](http://www.gearslutz.com/board/geekslutz-forum/53182-dbx-160xt-mods-schematic.html): "The non-linear capacitor circuit also benefits from the use of a very low noise fet input opamp...The 353's are too noisy and add THD to the mix." I _think_ this is right, but I could be wrong. |
 | U11  | DBX1252 | THAT2180A | Bend back or cut off pin 4 to circumvent trimming circuitry. The THAT2180 series is pre-trimmed. |
 | C16  | 1uF 63V Film | 2.2uF Solen "Fast Cap" | I had it lying around and it fit. Don't judge me. P.S. I had to remove TP9 to make room. |
 | C14, C18 | 1uF 50V Elec | 56uF 50V Panasonic FR | Decoupling U1. Bypassed with 0.01uF ceramic beneath the PCB. |
@@ -62,3 +62,6 @@ I chose a lot of parts because that's what I had lying around. For instance,
 
 There's a lot of uncertainty in my mind about exactly what does what in this circuit, especially around the VCA, RMS detectors and the timing bits in general. After all, I'm an amateur working from fuzzy and partial schematics. I've gone out of my way to leave a few parts the same, even when I think it's unnecessary. I figure that any change in sound from a suboptimal VCA coupling capacitor is minimal. The change in sound from screwing up a time constant is huge.
 
+### Questions and TODOs
+
+Should I consider reducing R17 and R22? These look like they drop the unregulated 24V to something closer to 16V for U2. The old LF351 drew around 3.6mA quiescent current, so 2k2 would drop right around 8V. The OPA134 draws 4mA (up to 5mA), dropping 8.8V (up to 11V). In addition, the OPA134 can take up to +-18V, which would imply a 1k5 resistor. But how does this affect the downstream circuit? Should R19 and R25 be changed to keep 4k4 over the associated resistor pairs?
