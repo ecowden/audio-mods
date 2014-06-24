@@ -6,17 +6,17 @@ Note: I'm using the _unbalanced_ output!
 
 | Part | Before  | After     | Notes |
 | ---- | ------- | --------- | ----- |
-| U1   | LF353   | OPA2134  | Input op amp |
+| U1   | LF353   | OPA2134   | Input op amp |
 | U2   | LF351   | OPA134    | Unbalanced output, driving transistor pair |
-| U8   | LF353   | OPA2134   | Sidechain. According to [JW](http://www.gearslutz.com/board/geekslutz-forum/53182-dbx-160xt-mods-schematic.html): "The non-linear capacitor circuit also benefits from the use of a very low noise fet input opamp...The 353's are too noisy and add THD to the mix." I _think_ this is right, but I could be wrong. |
+| U8, U9 | LF353   | OPA2134   | Sidechain. According to [JW](http://www.gearslutz.com/board/geekslutz-forum/53182-dbx-160xt-mods-schematic.html): "The non-linear capacitor circuit also benefits from the use of a very low noise fet input opamp...The 353's are too noisy and add THD to the mix." I _think_ this is right, but I could be wrong. |
 | U11  | DBX1252 | THAT2180A | Bend back or cut off pin 4 to circumvent trimming circuitry. The THAT2180 series is pre-trimmed. |
 | C16  | 1uF 63V Film | 2.2uF Solen "Fast Cap" | I had it lying around and it fit. Don't judge me. |
 | C14, C18 | 1uF 50V Elec | 56uF 50V Panasonic FR | Decoupling U1. Bypassed with 0.01uF ceramic beneath the PCB. |
 | C35, C46 | 1uF 50V Elec | 56uF 50V Panasonic FR | Decoupling U8. Bypassed with 0.01uF ceramic beneath the PCB. |
+| C10, C56 | 1uF 50V Elec | 56uF 50V Panasonic FR | Decoupling U9. Bypassed with 0.01uF ceramic beneath the PCB. |
 | C25 | 10uF 50V Elec | 56uF 50V Panasonic FR | Decoupling U2. It uses one cap rail-to-rail instead of two caps to ground. Unusual, but the OPA134 seems stable. |
 | C27, C31 | 22uF 25V | 22uF 50V Panasonic FR | Around unabalanced output transistor pair. I _think_ I know what they do, but I'm not 100% certain, so I left original values. |
-| C48, C50, C51, C52 | 1uF 50V Elec | 1.5uF 50V Wima MKS2 | Decoupling U5 & U6 (4558 in sidechain). I used film caps only because I had them and they fit.|
-| C9, C10, C54, C56 | 1uF 50V Elec | 1.5uF 50V Wima MKS2 | Decoupling U7 & U9 (misc 4558 & LF353). See above. |
+| C9, C48, C50, C51, C52, C54 | 1uF 50V Elec | 1.5uF 50V Wima MKS2 | Decoupling U5, U6, U7 (4558). I used film caps only because I had them and they fit.|
 | C58, C59 | 1uF 50V Elec | 1.5uF 50V Wima MKS2 | Decoupling U10 (LM339). See above. |
 | C17 | 10uF 50V Elec | 10uF 50V Panasonic FC | Hanging off VCA pin 7 (Vcc). Could probably have upsized, but I don't understand enough to be certain. |
 | C39, C42 | 1uF 50V Elec | | NO CHANGE. RMS detector. Probably decoupling, but time constants can be tricky. |
@@ -31,14 +31,16 @@ Note: I'm using the _unbalanced_ output!
 | Qty | Part  | Mouser #  |
 | --- | --------------- | --------- |
 | 1   | OPA134   Single FET-input Op Amp | 595-OPA134PA  |
-| 2   | OPA2134  Dual FET-input Op Amp   | 595-OPA2134PA |
+| 3   | OPA2134  Dual FET-input Op Amp   | 595-OPA2134PA |
 | 1   | THAT2180A VCA | 887-2180AL08-U |
-| 4   | 220uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H221 |
-| 4   | 0.1uF Panasonic ECWF Polypropylene Capacitor | 667-ECW-F2104HAB |
-| ??? | 0.01uF TDK C0G Ceramic Capacitor | 810-FK18C0G1H103J |
-| 21 ??? | 22uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H220 |
-| ??? | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
+| 6   | 0.01uF TDK C0G Ceramic Capacitor | 810-FK18C0G1H103J |
+| 2   | 0.1uF Panasonic ECWF Polypropylene Capacitor | 667-ECW-F2104HAB |
+| 8   | 1.5uF Wima MKS2 Polyester Capacitor | 505-MKS21.5/50/10 |
 | 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
+| 2 | 22uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H220 |
+| 7 | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
+| 2 | 220uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H221 |
+| 4 | 1000uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H102 |
 | 4 | 100V 1A Schottky Diode | 625-SB1H100-E3 |
 | 3 | DIP8 Socket | 115-43-308-41-003000 |
 
