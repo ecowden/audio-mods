@@ -30,17 +30,17 @@ Note: I'm using the _unbalanced_ output!
 | C64 | 10uF 25V Elec | 10uF 50V Panasonic FC | See above. |
 
 ### Bill of Materials
-667-EEU-FC1H1R0
+
 | Qty | Part  | Mouser #  |
 | --- | --------------- | --------- |
-| 1   | OPA134   Single FET-input Op Amp | 595-OPA134PA  |
+| 1   | OPA134 Single FET-input Op Amp | 595-OPA134PA  |
 | 3   | OPA2134  Dual FET-input Op Amp   | 595-OPA2134PA |
 | 1   | THAT2180A VCA | 887-2180AL08-U |
 | 6   | 0.01uF TDK C0G Ceramic Capacitor | 810-FK18C0G1H103J |
 | 2   | 0.1uF Panasonic ECWF Polypropylene Capacitor | 667-ECW-F2104HAB |
-| ?   | 1uF Wima MKS2 Polyester Capacitor | 505-MKS21/50/10 |
+| 3   | 1uF Wima MKS2 Polyester Capacitor | 505-MKS21/50/10 |
 | 8   | 1.5uF Wima MKS2 Polyester Capacitor | 505-MKS21.5/50/10 |
-| 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF that you can fit in there. The bigger, the more sub-20Hz will pass. |
+| 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF polypropylene that you can fit in there. |
 | ? | 10uf 50V Panasonic FC Electrolytic Capacitor | 67-EEU-FC1H100L |
 | 2 | 22uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H220 |
 | 7 | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
