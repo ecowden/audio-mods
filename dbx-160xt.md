@@ -41,7 +41,7 @@ Note: I'm using the _unbalanced_ output!
 | 3   | 1uF Wima MKS2 Polyester Capacitor | 505-MKS21/50/10 |
 | 8   | 1.5uF Wima MKS2 Polyester Capacitor | 505-MKS21.5/50/10 |
 | 1 | 2.2uF Solen "Fast Cap" Polypropylene Capacitor (SOLEN-51548) | N/A. Try [PartsConnexion](http://www.partsconnexion.com/capacitor_film_solen_pb.html), or substitute any good 2uF - 4uF polypropylene that you can fit in there. |
-| ? | 10uf 50V Panasonic FC Electrolytic Capacitor | 67-EEU-FC1H100L |
+| 6 | 10uf 50V Panasonic FC Electrolytic Capacitor | 67-EEU-FC1H100L |
 | 2 | 22uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H220 |
 | 7 | 56uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H560 |
 | 2 | 220uf 50V Panasonic FR Electrolytic Capacitor | 667-EEU-FR1H221 |
@@ -60,4 +60,5 @@ I chose a lot of parts because that's what I had lying around. For instance,
 * I used that 2.2uF Solen because I had it from years ago. 
 * I used 10uF Panasonic _FC_ instead of my preferred _FR_ because the big distributors don't seem to stock the latter.
 
+There's a lot of uncertainty in my mind about exactly what does what in this circuit, especially around the VCA, RMS detectors and the timing bits in general. After all, I'm an amateur working from fuzzy and partial schematics. I've gone out of my way to leave a few parts the same, even when I think it's unnecessary. I figure that any change in sound from a suboptimal VCA coupling capacitor is minimal. The change in sound from screwing up a time constant is huge.
 
